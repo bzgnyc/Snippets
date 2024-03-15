@@ -40,7 +40,7 @@ length(FS) == 1 {
 			} else {
 				# Otherwise reached EOL before closing DQUOTE and process as a multiline field (i.e. field with embedded CRLF)
 				# Reset to parse field again with next line appended to current
-				getline _csvparse_sa; NR--; _csvparse_c--;
+				getline _csvparse_sa; FNR--; NR--; _csvparse_c--;
 				_csvparse_s = _csvparse_s RS _csvparse_sa;
 			 	# This will retain all of s when advancing below
 				RLENGTH=-1;
