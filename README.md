@@ -5,10 +5,7 @@ A collection of code snippets
 ## Contents
 - [RFC 4180 CSV parser in AWK](#csvparse)
 
-## RFC 4180 CSV paser in AWK
-[[back to top](#contents)]
-
-
+## RFC 4180 CSV parser in AWK
 Parse CSV files that follow RFC 4180 (e.g. quoted strings) in AWK:
 
     awk -F, -f csvparse.awk -f yourmain.awk < input.csv
