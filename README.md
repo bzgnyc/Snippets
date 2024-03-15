@@ -20,4 +20,4 @@ Additionally FS (e.g. via -F) may be set to any character for parsing any Charac
 
 ## Snapshots to Delta/Effective Dated Tables in SQL
 
-SQL code to create delta/effective-dated tables from snapshots
+SQL code to create delta/effective-dated tables from snapshots.  Not yet uploaded.
